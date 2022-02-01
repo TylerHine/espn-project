@@ -1,0 +1,11 @@
+
+.myClass {
+    opacity:1;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+}
+
+
