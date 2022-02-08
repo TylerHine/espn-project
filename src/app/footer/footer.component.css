@@ -1,3 +1,98 @@
-.h4 {
-   margin-top:30px;
+
+
+
+.col h5 {
+   font-size: 13px;
+   font-weight: 700;
+   display:inline-block;
+   justify-content: space-between;
+   height: 44px;
+   margin: 0px;
+   
+
+}
+
+.footer {
+   
+   border-top: 1px;
+   margin-left: 15rem;
+   margin-right: 15rem;
+   padding-left: 10rem;
+   position:absolute;
+   bottom: 0;
+   width: 65%;
+   height: 2.5rem;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+.footer-link {
+   color: black;
+   text-decoration: underline;
+   display:flex;
+   padding-top: 20px;
+   margin-left: 25px;
+}
+
+.col-1-link {
+
+   color: #48494a;
+   text-decoration: none;
+   align-items: center;
+   height: 40px;
+   line-height: 1;
+   position: relative;
+   font-size: small;
+}
+
+.col-2-link {
+   color:#48494a;
+   text-decoration: none;
+   align-items: center;
+   height: 40px;
+   line-height: 1;
+   position: relative;
+   font-size: small;
+}
+
+.col-3-link {
+   color:#48494a;
+   text-decoration: none;
+   align-items: center;
+   height: 40px;
+   line-height: 1;
+   position: relative;
+   font-size: small;
+}
+
+.col-4-link {
+   color:#48494a;
+   text-decoration: none;
+   align-items: center;
+   height: 40px;
+   line-height: 1;
+   position: relative;
+   font-size: small;
+}
+
+.col-5-link {
+   color:#48494a;
+   text-decoration: none;
+   align-items: center;
+   height: 40px;
+   line-height: 1;
+   position: relative;
+   font-size: small;
+}
+.nav-link {
+
+   color: #48494a;
+   text-decoration-line: underline;
+   align-items: center;
+   height: 40px;
+   line-height: 1;
+   position: relative;
+   font-size: small;
+
+
 }
