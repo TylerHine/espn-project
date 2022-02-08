@@ -1,8 +1,30 @@
 .card {
-    color:red !important;
-    height: auto;
-    font-style: italic;
-    width: 28rem;
+    position: absolute;
+    right: 100px;
+}
 
+
+.card-title h5{
+
+    font-size: medium;
+    margin-bottom: 10px;
+    color: #1D1E1F;
+    background: #fff;
+    font-weight: 700;
+    border-bottom:solid 1px;
+    border-bottom-color:#48494A;
+  
     
+}
+
+.text {
+   
+    color: #48494A;
+    font-size: small;
+    padding: 0;
+    margin:0;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    font-family:'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
 }
