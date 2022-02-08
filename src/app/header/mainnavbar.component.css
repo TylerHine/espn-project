@@ -1,11 +1,15 @@
 
-.myClass {
-    opacity:1;
+.nav-link {
+    color: white;
+    
 }
 
-.dropdown:hover .dropdown-menu{
-    display: block;
-    margin-top: 0;
+.dropdown-menu a:hover {
+    background-color: red;
 }
-
+.dropdown-item {
+    color: #48494a;
+   
+    
+}
 
