@@ -1,0 +1,99 @@
+.wrapper {
+    background-color:#F1F2F3;
+}
+
+.scoreLabel-title {
+    font-size:11px;
+    font-weight:700;
+
+    
+}
+
+.button{
+    font-size:14px;
+    border:#cbccce 1px solid;
+    margin-top:15px;
+    margin-bottom:15px;
+    text-align:center;
+    width:150px;
+    height:30px;
+    margin-left:50px;
+    border-radius:16px;
+    background-color:#F9F9FB;
+    color:#2B2C2D;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.events-dropdown {
+    position:relative;
+    display:inline-block;
+}
+
+.dropdown-content {
+  
+    display:none;
+    position:absolute;
+    background-color:white;
+    min-width:160px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.dropdown-content a{
+    color:black;
+    padding:12px 16px;
+    text-decoration:none;
+    display:block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:small;
+}
+
+.dropdown-content a:hover {
+    background-color:#004D9A;
+    color:white;
+
+}
+
+.events-dropdown:hover .dropdown-content {
+    display:block;
+
+}
+
+.events-dropdown:hover .button{
+    background-color:grey;
+}
+
+
+
+
+
+.dropdown-menu:hover{
+    background: #48494a;
+}
+
+
+.dropdown-wrapper .dropdown-toggle.sm:after {
+    font-size:24px;
+    margin:0 -6px 0 0;
+}
+
+
+
+
+
+.dropdown-toggle:after {
+    content:"";
+    color:#06c;
+}
+
+.scores-next:before {
+    color:#48494a;
+    font-size:30px;
+    left:0;
+    line-height:65px;
+    position:absolute;
+    right:0;
+    text-align:center;
+    text-indent:0;
+
+}
