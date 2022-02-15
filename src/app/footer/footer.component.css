@@ -1,4 +1,22 @@
 
+.mens-hoops-image {
+
+   height:20px;
+   width:25px;
+   float:left;
+   padding-right:5px;
+   
+}
+
+.womens-hoops-image {
+
+   height:20px;
+   width:25px;
+   float:left;
+   padding-right:5px;
+   
+}
+
 
 
 .col h5 {
@@ -8,21 +26,22 @@
    justify-content: space-between;
    height: 44px;
    margin: 0px;
+   border-bottom: solid 1.5px;
    
 
 }
 
 .footer {
    
-   border-top: 1px;
-   margin-left: 15rem;
-   margin-right: 15rem;
-   padding-left: 10rem;
+   border-top:1px;
+   margin-left:15rem;
+   margin-right:15rem;
+   padding-left:10rem;
    position:absolute;
-   bottom: 0;
-   width: 65%;
-   height: 2.5rem;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   bottom:0;
+   width:65%;
+   height:2.5rem;
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    
 }
 
@@ -32,6 +51,7 @@
    display:flex;
    padding-top: 20px;
    margin-left: 25px;
+
 }
 
 .col-1-link {
