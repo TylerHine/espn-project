@@ -1,4 +1,4 @@
-import { Component } from "@angular/core"
+import { Component, Input } from "@angular/core"
 
 @Component({
     selector: 'app-footer',
@@ -7,4 +7,11 @@ import { Component } from "@angular/core"
 })
 export class FooterComponent{
 
+    @Input() img: string;
+    @Input() ufc: string;
+
+    constructor() {
+        this.img = "";
+        this.ufc = "";
+    }
 }
