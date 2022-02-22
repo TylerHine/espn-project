@@ -1,0 +1,41 @@
+.pagelayout-main {
+    background: white;
+    width:1240px;
+    margin:0;
+    height:1200px;
+}
+
+
+.card-header-sublink {
+    float:right;
+}
+
+.card-header-title {
+    font-size: medium;
+    font-weight:700;
+}
+
+.flex h1 {
+    font-weight:700;
+    padding-bottom:15px;
+}
+
+.carousel-item {
+    padding-left:50px;
+    background:white
+}
+
+.carousel-item a{
+    padding-left:80px;
+    text-decoration:none;
+    color:black;
+}
+
+.carousel-control-prev {
+    filter:invert(100%);
+}
+
+.carousel-control-next {
+    filter:invert(100%);
+}
+
