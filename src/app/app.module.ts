@@ -14,6 +14,8 @@ import { HomeLayoutComponent } from './home/home-layout.component';
 import { NhlScoreboardComponent } from './sports-links/nhl-scoreboard.component';
 import { SoccerScoreboardComponent } from './sports-links/soccer-scoreboard.component';
 import { CenterCardComponent } from './body/centercard.component';
+import { UserInfoComponent } from './user-info/user-info.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -29,11 +31,14 @@ import { CenterCardComponent } from './body/centercard.component';
     HomeLayoutComponent,
     NhlScoreboardComponent,
     SoccerScoreboardComponent,
-    CenterCardComponent
+    CenterCardComponent,
+    UserInfoComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
