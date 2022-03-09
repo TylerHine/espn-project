@@ -1,4 +1,4 @@
-import { Component } from "@angular/core"
+import { Component, Input } from "@angular/core"
 
 @Component ({
     selector: "app-centercard",
@@ -7,5 +7,11 @@ import { Component } from "@angular/core"
 })
 
 export class CenterCardComponent {
+    @Input() img: string;
+    @Input() title: string;
 
+    constructor() {
+        this.img = "";
+        this.title = "xxxx xx xxxxxx";
+    }
 }
