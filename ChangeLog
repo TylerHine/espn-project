@@ -1,0 +1,7 @@
+Main Features: 
+  Create new http component "team-card-layout.component.html" to hold the new image of players and display the mock list items.
+  Created new ts mock product list with attributes "title" and "img" and constructor to allow for mock list to work.
+  Created new ts " product-item.model.ts" for the new attributes in the mock list.
+  Created products.service.ts class to allow the baseUrl and products endpoint to be shown in developer tools using HTTP.
+  Created "team-card-layout.component.ts" with constructors to use ngOnInit and allow HTTP to fetch product data from console.
+  Added an import to the app.module.ts class to allow for HHTP client to receive data from backend of firebase database.
