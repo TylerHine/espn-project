@@ -5,3 +5,13 @@ Main Features:
   Created products.service.ts class to allow the baseUrl and products endpoint to be shown in developer tools using HTTP.
   Created "team-card-layout.component.ts" with constructors to use ngOnInit and allow HTTP to fetch product data from console.
   Added an import to the app.module.ts class to allow for HHTP client to receive data from backend of firebase database.
+
+
+CHANGE LOG FOR 3/22/2022
+Main Features
+  Registered app on firebase
+  Added firebase SDK to my project, ran ng build and added new directory to my project
+  Installed Firebase CLI by copying and pasting the firebase log in from website
+  Deployed to Firebase Hosting 
+  Added AngularFireModule from GitHub to app.module.ts
+  Deployed website, is accessible publicly with https://espn-71018.web.app/ 
