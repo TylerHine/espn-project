@@ -1,0 +1,9 @@
+Main features:
+	Create navbar component names "events-navbar" using bootstrap div and CSS styling
+	Create card named "leftcard" and added the proper heading and text within card
+	
+Bonus Features:
+	Added attributes to class "footer.component.ts"
+		img: string;
+		img2: string;
+

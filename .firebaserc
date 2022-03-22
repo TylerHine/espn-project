@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "espn-71018"
+  },
+  "targets": {
+    "espn-71018": {
+      "hosting": {
+        "espn": [
+          "espn-71018"
+        ]
+      }
+    }
+  }
+}
