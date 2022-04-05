@@ -24,3 +24,11 @@ Main Features
   Deployed to Firebase Hosting 
   Added AngularFireModule from GitHub to app.module.ts
   Deployed website, is accessible publicly with https://espn-71018.web.app/ 
+
+
+CHANGE LOG FOR 4/5/22
+Main Features
+  Added a new component to allow users to sign in with their username and password.
+  Added angular routing so that this log in appears on the admin page.
+  Made the box submit data to console so it tells in console under developer tools "You logged in" after pressing log in button.
+  Added ngFor to automate the information being updated to the backend and appear on firebase.
