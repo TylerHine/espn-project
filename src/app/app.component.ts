@@ -16,7 +16,7 @@ export class AppComponent {
 
     for(var product of mock_product_list) {
       console.log(product);
-      this.product.push(product);
+      this.product.push();
     }
     // put some code to fetch data from backend using HTTP
   }

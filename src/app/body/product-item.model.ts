@@ -1,10 +1,10 @@
 export class ProductItemModel {
-    img: string;
-    title: string;
+    username: string;
+    password: string;
 
 
-    constructor(img: string, title: string) {
-        this.img = img;
-        this.title = title;
+    constructor(username: string, password: string) {
+        this.username = username;
+        this.password = password;
     }
 }

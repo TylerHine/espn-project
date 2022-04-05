@@ -21,7 +21,9 @@ import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
-
+import { BannerComponent } from './body/banner.component';
+import { AddProductComponent } from './home/add-product/add-product.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -38,6 +40,8 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     SoccerScoreboardComponent,
     CenterCardComponent,
     UserInfoComponent,
+    BannerComponent,
+    AddProductComponent
     
 
   ],
@@ -46,7 +50,9 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     AppRoutingModule,
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    FormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

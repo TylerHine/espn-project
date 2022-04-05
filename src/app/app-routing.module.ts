@@ -6,7 +6,7 @@ import { NbaScoreboardComponent } from './sports-links/nba-scoreboard.component'
 import { HomeLayoutComponent } from './home/home-layout.component';
 import { NhlScoreboardComponent } from './sports-links/nhl-scoreboard.component';
 import { SoccerScoreboardComponent } from './sports-links/soccer-scoreboard.component';
-
+import { AddProductComponent } from './home/add-product/add-product.component';
 const routes:Routes = [
   {
     path: '',
@@ -16,7 +16,8 @@ const routes:Routes = [
   {path: 'nfl-scoreboard', component: NflScoreboardComponent},
   {path: 'nba-scoreboard', component: NbaScoreboardComponent},
   {path: 'nhl-scoreboard', component: NhlScoreboardComponent},
-  {path: 'soccer-scoreboard', component: SoccerScoreboardComponent}
+  {path: 'soccer-scoreboard', component: SoccerScoreboardComponent},
+  {path: 'admin', component: AddProductComponent},
 ];
 
 
